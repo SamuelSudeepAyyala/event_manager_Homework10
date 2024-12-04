@@ -288,3 +288,4 @@ def manager_token():
         "role" : UserRole.MANAGER.value
     }
     return create_access_token(data=manager_data)
+
